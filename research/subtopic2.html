@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="subtopic2">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtopic 2: Sustainability of Esports</title>
+    <style>
+        :root {
+            
+            --bg-color: #030e17;
+            --card-bg: #0f141c;
+            --text-color: rgb(226, 228, 240);
+            --heading-color: #fdfeff;
+            --border-color: #fdfeff;
+            --accent-color: rgb(221, 229, 240);
+        }
+
+        body {
+            font-family: -apple-system, 'New-Time-Roman', "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .back-btn:hover {
+            background-color: var(--accent-color);
+            color: var(--bg-color);
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--heading-color);
+            margin-bottom: 24px;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: var(--border-color);
+            border: none;
+            margin-bottom: 32px;
+        }
+
+        .content-box {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+
+        .content-box h2 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--accent-color);
+        }
+
+        .content {
+            line-height: 1.6;
+            font-size: 0.95rem;
+            color: var(--text-color);
+            margin: 0;
+        }
+
+        .esports-image {
+            float: right;
+            width: 35%;
+            height: auto;
+            border-radius: 6px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+        .FNCS {
+            float: right;
+            width: 35%;
+            height: auto;
+            border-radius: 6px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+
+
+        @media (max-width: 600px) {
+            .esports-image {
+                float: none;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 16px;
+                margin-bottom: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="Intro.html" class="back-btn">Back to Main Page</a>
+
+    <div class="container">
+        <h1 class="title">Sustainability of Esports</h1>
+        <hr class="divider">
+
+        <div class="content-box">
+            <h2>Environmental &amp; Operational Challenges</h2>
+            <img src="https://i.kym-cdn.com/entries/icons/original/000/053/183/chess_guy.jpg" alt="Esports stadium arena during a live tournament" class="esports-image" id="esports-stadium">
+            <p class="content">
+                Esports has grown rapidly in recent years, but its long-term sustainability is a pressing topic of concern. High-powered gaming rigs, massive data servers, and global stadium events consume substantial amounts of energy, creating a noticeable carbon footprint. Beyond ecological concerns, the industry struggles with high player burnout rates due to rigorous training schedules and a lack of career longevity. Addressing these operational challenges through energy-efficient hardware, green tournament venues, and standardized wellness programs is crucial for the continued growth and health of esports.
+            </p>
+        </div>
+
+        <div class="content-box">
+            <h2>Financial Viability &amp; Ecosystem Balance</h2>
+            <img src="https://tse2.mm.bing.net/th/id/OIP.uOJcmzaTSRP6LDkHHum7vgAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Esports Fortnite FNCS Championship" class="FNCS" id="fncs-championship">
+            <p class="content">
+                Financially, many esports organizations are transitioning away from heavy reliance on venture capital toward diversified revenue streams like digital collectibles, brand partnerships, and media rights. Building a sustainable ecosystem requires establishing fair revenue-sharing models between game publishers, tournament organizers, and teams. By fostering financial discipline and embedding social responsibility directly into league structures, the industry can ensure steady profitability while preserving accessibility for future generations of players and fans.
+            </p>
+        </div>
+    </div>
+
+
+</body>
+</html>
