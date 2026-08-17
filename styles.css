@@ -1,0 +1,145 @@
+
+ body{
+    overflow:scroll;
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:space-between;
+    gap:10px;
+    padding-top:40px;
+    
+    
+ }
+ 
+ .navbar{
+    
+    z-index:1;
+    position:fixed;
+    top:6px;
+    box-shadow: 0px 0px 2px 2px rgb(190, 118, 118);
+    background-color: bisque;
+    display:inline-flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items:center;
+    min-height:40px;
+    border-radius: 15px;
+    margin-top:0;
+    min-width:99%;
+   
+}
+.divider{
+    
+    
+    margin-left:0;
+    
+    background: linear-gradient(90deg,rgb(194, 93, 84),white);
+    border-radius: 0px 0px 3px 3px;
+    border:0;
+    height:5px;
+    width:80%;
+}
+
+.links{
+    font-weight:200;
+    box-sizing:border-box;
+    margin-right:10px;
+    text-decoration: none;
+    color:rgb(214, 211, 18);
+    padding:10px 10px 10px 5px;
+    text-shadow: 2px 1px 0,1px yellow;
+    font-size:1.2rem;
+    
+}
+
+.header-section{
+    position:relative;
+    bottom:10px;
+    display:block;
+    background:linear-gradient(90deg,rgb(209, 65, 161),rgb(218, 179, 209),white);
+    box-shadow:0 0 3px 3px rgb(235, 175, 175);
+    height:200px;
+    border-radius:5px;
+    
+    
+    
+}
+
+
+body .divider{
+    top:100px;
+}
+
+.header-section h1{
+    margin-left:10px;
+    font:700 3rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-section p {
+    overflow-wrap:break-word;
+    width:60%;
+    font: 200 1.3rem 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(10, 10, 9);
+    margin-left:10px;
+    letter-spacing:1px;
+
+}
+
+.body-text{
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    border-right-color: black;
+    border-left-color: black;
+    display:block;
+    margin: 0 auto;
+    height:70vh;
+    width:100%;
+
+}
+
+.body-section{
+    border-radius:3px;
+    padding:20px 30px;
+    display:block;
+    box-shadow: 
+      0 1px 1px rgba(0, 0, 0, 0.15),
+      0 5px 5px rgba(0, 0, 0, 0.15),
+      0 10px 10px rgba(0, 0, 0, 0.15),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    height:30%;
+    width:60%;
+    margin: 50px auto;
+}
+
+
+.animate{
+    animation: slide 0.7s ease-in;
+}
+
+@keyframes slide{
+    0%{
+        transform:translateY(0px);
+        opacity: 0.9;
+    }
+
+    25%{
+        transform:translateY(-50px);
+        opacity: 0.8;
+    }
+    75%{
+        transform:translateY(-300px);
+        opacity: 0.5;
+    }
+    100%{
+        transform:translateY(-1000px);
+        opacity: 0.1;
+    }
+
+}
+
+
+
